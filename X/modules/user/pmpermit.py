@@ -5,24 +5,16 @@ import os
 from os import getenv
 hl = "."
 pm_watcher = 5
-PM_PIC = getenv("PM_PIC", "https://graph.org/file/936ef33023a77fa9a6813.jpg")
+PM_PIC = getenv("PM_PIC", "https://graph.org/file/9c43b7db1307d472e5cf9.jpg")
 
 TEXT = """
-╭═══════════════════╮
-✧ 𝕁𝕒𝕡𝕒𝕟𝕖𝕤𝕖-𝕏-𝕌𝕤𝕖𝕣𝕓𝕠𝕥 ✧
-╰═══════════════════╯
-╰• **ᴏᴡɴᴇʀ** » {}
-• **ᴛʜɪs ɪs 𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄 𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 ᴘᴍ sᴇᴄᴜʀɪᴛʏ 🛡️**
-➖➖➖➖➖➖➖➖➖➖➖ 
-    **ʜᴇʏ ꜱᴀᴍᴜʀᴀɪ** 🥀
-    **ɪғ ʏᴏᴜ sᴘᴀᴍ ʜᴇʀᴇ ᴡɪᴛʜᴏᴜᴛ ᴍʏ**
-    **ᴍᴀꜱᴛᴇʀ's ᴀᴘᴘʀᴏᴠᴀʟ ʏᴏᴜ ᴡɪʟʟ ʙᴇ**
-    **ʙʟᴏᴄᴋᴇᴅ** 
-⚝  **ᴡᴀʀɴ ʟɪᴍɪᴛs** » {}      
-⚝  **ʏᴏᴜʀ ᴡᴀʀɴs** » {}
-➖➖➖➖➖➖➖➖➖➖➖
-•
-╰───❰ [ᴍᴀᴋᴇ ᴍᴇ ʏᴏᴜʀs](https://github.com/Team-Japanese/Japanese-X-Userbot) ❱
+**       Ram Ram 🚩
+
+LADIES AND GENTELMEN,, 
+
+WAIT.... INTRODUCING MOST EXPENSIVE BRAND 💓✨..
+
+     ☔   PHOENIX   ☔    **
 """
 @Client.on_message(filters.command("pmpermit", hl) & filters.me)
 async def pmpermit(client, message):
